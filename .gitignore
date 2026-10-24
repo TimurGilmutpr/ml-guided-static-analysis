@@ -1,0 +1,13 @@
+
+Dockerfile
+.dockerignore
+docker-compose*.yml
+
+data
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+__pycache__/
+*.pyc
+
+
+!README.md
