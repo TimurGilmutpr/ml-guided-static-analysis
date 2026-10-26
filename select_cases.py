@@ -1,7 +1,7 @@
 from pathlib import Path
 import random
 
-BASE = Path.home() / "Desktop/juliet/dataset"
+BASE = Path("dataset")      
 
 CWES = ["cwe23", "cwe78", "cwe134"]
 

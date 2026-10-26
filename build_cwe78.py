@@ -2,11 +2,11 @@ from pathlib import Path
 import subprocess
 import re
 
-JULIET = Path.home() / "Desktop/juliet/data/C"
+JULIET = Path("data/C")
 SRC_ROOT = JULIET / "testcases/CWE78_OS_Command_Injection"
 SUPPORT = JULIET / "testcasesupport"
 
-OUT_ROOT = Path.home() / "Desktop/juliet/dataset/cwe78"
+OUT_ROOT = Path("dataset/cwe78")
 LL_ROOT = OUT_ROOT / "ll"
 VALID_FILE = OUT_ROOT / "valid_cases.txt"
 
